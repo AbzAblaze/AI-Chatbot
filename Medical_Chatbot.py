@@ -34,7 +34,6 @@ def greeting_response(text):
     for word in text.split():
         if word in user_greetings:
             return random.choice(bot_greetings)
-
  
 #Index Sort 
 def index_sort(list_var):
